@@ -1,0 +1,17 @@
+ann_root: annotation
+batch_size_test: 32
+batch_size_train: 4
+image_size: 224
+inference: generate
+init_lr: 2e-05
+k_test: 128
+max_epoch: 1
+min_lr: 0
+pretrained: ''
+train_files: [train]
+vg_root: None
+vit: base
+vit_ckpt_layer: 0
+vit_grad_ckpt: false
+vqa_root: ./dataset/evjqa/train-data/train-images/
+weight_decay: 0.05
